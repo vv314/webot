@@ -36,22 +36,5 @@ Wechaty.instance() // Global Instance
         }
       }
     }
-
-    // if (/JavaScript|Js|js/.test(text)) {
-    //   message.say('哈哈哈哈哈')
-    // }
-
-    // if (text.includes('冬雪')) {
-    //   const lover = [
-    //     '我爱你',
-    //     'I love you',
-    //     '想你了',
-    //     '哎呀呵',
-    //     '整啥捏',
-    //     '吃屁',
-    //     '哎呀呀'
-    //   ]
-    //   message.say(lover[random(0, lover.length)])
-    // }
   })
   .start()
