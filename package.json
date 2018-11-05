@@ -1,0 +1,22 @@
+{
+  "name": "webot",
+  "version": "0.1.0",
+  "description": "微信聊天机器人",
+  "main": "src/bot.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "keywords": [],
+  "author": "Vincent <vv314@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "wechaty": "^0.22.4"
+  },
+  "devDependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "nodemon": "^1.18.5"
+  }
+}

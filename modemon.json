@@ -1,0 +1,26 @@
+{
+  "restartable": "rs",
+  "watch": ["src"],
+  "ignore": [
+    ".git",
+    "src/**/*.spec.ts",
+    "**/*.d.ts",
+    "*.test.ts",
+    "*.spec.ts",
+    "fixtures/*",
+    "test/**/*",
+    "docs/*",
+    "node_modules"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony",
+    "ss": "node --inspect-brk -r ts-node/register -T",
+    "ts": "ts-node"
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "*,-nodemon:*,-nodemon,-knex:pool"
+  },
+  "ext": "js ts json"
+}
