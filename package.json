@@ -13,6 +13,7 @@
   "author": "Vincent <vv314@foxmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "wechaty": "^0.22.4"
   },
   "devDependencies": {
